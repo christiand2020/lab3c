@@ -29,9 +29,9 @@ void print_n(const char s, int n){
 }
 
 int main(void) {
-  charogNumber=readline("Enter an int: ");
-  int intNumber=atoi(ogNumber);
+  char*number=readline("Enter an int: ");
+  int intNumber=atoi(number);
   printf("sum is %d.\n", sum_n(intNumber));
-  char*Word=readline("Enter a string: ");
-  print_n(Word, intNumber);
+  char*phrase=readline("Enter a string: ");
+  print_n(phrase, intNumber);
 }
