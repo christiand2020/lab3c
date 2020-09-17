@@ -19,7 +19,7 @@ int sum_n(int n){
 }
 
 // You may assume n >= 0, print s n times, each time in its own line.
-void print_n(const char*s, int n){
+void print_n(const char *s, int n){
   if (n <= 0){
     return;
   } else {
